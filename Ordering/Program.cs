@@ -3,7 +3,7 @@ using Ordering;
 
 Console.WriteLine("Hello, World!");
 
-OrderingService orderingService = new OrderingService();
+IOrderingService orderingService = new OrderingService();
 orderingService.Process();
 
 
